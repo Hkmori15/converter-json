@@ -37,7 +37,7 @@ json yaml_to_json(const YAML::Node &yaml) {
 
 int main(int argc, char *argv[]) {
   if (argc != 3) {
-    std::cout << "Usage: " << argv[0] << " <input.yaml|csv> <output.json>\n";
+    std::cout << "Usage: " << argv[0] << " <input.yaml> <output.json>\n";
 
     return 1;
   }
